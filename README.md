@@ -6,5 +6,6 @@ So, three decisions have to be made:
 1. When to serve a customer?
 2. How much to deliver to a customer when it is served?
 3. Which delivery routes to use?
+
 It should be mentioned that IRP differs from traditional vehicle routing problems because it is based on customer’s usage instead of customers’ orders. Moreover, we consider two different replenishment policies that impose rules on the quantity that can be delivered in each delivery to a customer: the order-up-to-level (OU) and the maximum-level (ML) policies. In the OU policy each delivery must fill the inventory to its maximum capacity, effectively linking two of the decisions: once one decides to visit a customer, the quantity to be delivered is simply the difference between its maximum capacity and its current inventory level. In the ML policy, any quantity can be delivered as long as the maximum capacity is not exceeded. The ML policy clearly encompasses the OU one and is more flexible, but also more difficult to solve given the extra set of decision variables.
 
